@@ -1,0 +1,617 @@
+注意
+
+1、测试版本代码不稳定，有问题的我都在文中备注了，使用代码时注意看清。最好不要在哈姆雷特里刷联机版、巨人国和海难里独有的物品，容易崩档。
+2、当你使用代码刷出物品，鼠标移上去显示物品名称为“missing name”的，最好不要捡起来，多半会崩档。
+
+3、有些属于地下密室里的东西刷在地上会变成一个平面图形，是正常现象，因为地下不能转换视角，就不用做立体的啦。
+
+4、文末【屋内装饰】板块，还有很多没有放上去，刷出来的物品无法用锤子敲掉，所以要尝试最好也是在屋外刷，可以配合建猪镇用。
+
+
+
+【材料】
+软木-Cork：cork
+
+零碎衣料-Clippings：clippings
+
+荨麻-Nettle：cutnettle
+
+蔓草（铲掉的荨麻藤）：dug_nettle
+
+捕蝇器长茎-Flytrap Stalk：venus_stalk
+
+铁矿石-Iron Ore：iron
+
+块茎-Tuber：tuber_crop
+
+合金-Alloy：alloy
+
+闪电羽毛-Thunder Feather：feather_thunder
+
+雀眼鹰羽毛-Peagawk Plume：peagawkfeather
+
+金粉-Gold Dust：gold_dust
+
+有毒的毒剑蛙腿/烹饪过的毒剑蛙腿-Poison Dartfrog Legs：froglegs_poison/froglegs_poison_cooked
+
+通往城市的钥匙-Key to the City：key_to_city
+
+皇家美术馆钥匙-Royal Gallery Key：pedestal_key
+
+玛法法王后（雕像）- Queen Malfalfa ：trinket_giftshop_1
+
+皇宫美景明信片-Post Card of the Royal Palace：trinket_giftshop_3
+
+一罐喷彩摩丝-Can of Silly String：trinket_giftshop_4
+
+猪猪币-Oinc（金币）：oinc
+
+十枚猪猪币-Tenpiece Oinc（银币）：oinc10
+
+魔法水-Magic Water：waterdrop
+
+安保协约-Security Contract：securitycontract
+
+房屋产权证-Deed of home ownership：deed
+
+山贼藏宝图-Bandit Stash Map：banditmap
+
+失落的圣象-Lost Idol/Lost Totem/Relic Fragment：relic_1/2/3
+
+维沃虫甲壳-Weevole Carapace：weevole_carapace
+
+甲壳-Chitin：chitin
+
+蛇骨-Snake Bone：snake_bone
+
+
+
+
+【工具】
+剪刀-Shears：shears
+
+放大镜-Magnifying Glass：magnifying_glass
+
+金平底锅-Gold Pan：goldpan
+
+驱虫灵-Bug B'Gone：bugrepellent
+
+软木碗型划艇-Cork Bowl Canoe：corkboat
+
+蛇皮帆-Snakeskin Sail：snakeskinsail
+
+警报解除工具-Disarming Tools：disarming_kit
+
+圆头锤-Ball Pein Hammer：ballpein_hammer
+
+帝王权杖-Regal Scepter：pig_scepter
+
+宝鸟胗石-Ro Bin Gizzard Stone：ro_bin_gizzard_stone
+
+宝鸟箱-Ro Bin：ro_bin
+
+费洛蒙石-Pherostone：pheromonestone
+
+
+
+
+【武器】
+拐棍-Stalking Stick：walkingstick
+
+戟-Halberd：halberd
+
+软木棒-Cork Bat：cork_bat
+
+手持加农炮-Blunderbuss：blunderbuss
+
+
+
+
+【穿戴】
+软木蜡烛帽-Cork Candle Hat：candlehat
+
+维沃虫披肩-Weevole Mantle：armor_weevole
+
+人蚁套装-Mant Suit：antsuit
+
+人蚁面具-Mant Mask：antmaskhat
+
+华丽的头盔-Fancy Helmet：metalplatehat
+
+锡制套装-Tin Suit：armor_metalplate
+
+防毒面罩-Gas Mask：gasmaskhat
+
+雷霆之帽-Thunderhat：thunderhat
+
+木髓帽-Pith Hat：pithhat
+
+蛇皮帽-Snakeskin Hat：snakeskinhat
+
+蛇皮夹克-Snakeskin Jacket：armor_snakeskin
+
+皇家王冠-Royal Crown：pigcrownhat
+
+蝙蝠蒙面斗篷-Cowl：bathat
+
+山贼帽-Swashy Hat：bandithat
+
+雀眼鹰帽子（这个应该是后面会加入的东西，已经可以刷出来使用了）：peagawkfeatherhat
+
+花粉热帽子（这个也是新东西，估计后面会加入）：hayfeverhat
+
+
+
+
+【食物】
+鱼：fish
+
+炸块茎-Fried Tuber：tuber_crop_cooked
+
+开花块茎-Blooming Tuber：tuber_bloom_crop
+
+油炸开花块茎-Fried Blooming Tuber：tuber_bloom_crop_cooked
+
+蜜汁-Nectar：nectar_pod
+
+烹饪过的藕-Cooked Lotus Root：lotus_flower_cooked
+
+熟种荚-Cooked Seed Pod：teatree_nut_cooked
+
+芦笋/烹饪过的芦笋-Asparagus/Cooked Asparagus：asparagus/asparagus_cooked
+
+芦笋汤-Asparagus Soup：asparagussoup
+
+芦荟/烹饪过的芦荟-Aloe / Cooked Aloe：aloe/aloe_cooked
+
+拉蒂什/烹饪过的拉蒂什-Radish / Cooked Radish：radish/_cooked
+
+荨麻卷-Nettle Rolls：nettlelosange
+
+蛇骨汤-Snake Bone Soup：snakebonesoup
+
+茶-Tea：tea
+
+冰茶-Iced Tea：icedtea
+
+蒸火腿三明治-Steamed Ham Sandwich：steamedhamsandwich
+
+黏黏的蛋糕-Gummy Cake：gummy_cake
+
+香辣蔬菜刺-Spicy Vegetable Stinger：spicyvegstinger
+
+硬壳玉米卷-Hard Shell Tacos：hardshell_tacos
+
+黑豆饭-Feijoada：feijoada
+
+熟了的黏糊鼻涕虫-Cooked Gummy Slug：slugbug_cooked
+
+烹饪过的蝽象-Cooked Bean Bugs：jellybug_cooked
+
+
+
+
+【建筑】
+摇头风扇-Oscillating Fan：basefan
+
+熔炼器-Smelter：smelter
+
+洒水器-Sprinkler（测试发现每次刷这个都崩，慎刷）：sprinkler
+
+软木桶-Cork Barrel：corkchest
+
+霍格思普科斯特（魔法一本）-Hogus Porkusator：hogusporkusator
+
+翔天飞船-Skyworthy：porkland_exit/porkland_entrance
+
+商店老板的桌子-desk：pigman_shopkeeper_desk
+
+灯柱-Lamp Post：city_lamp
+
+草坪装饰1（规则分段式）：lawnornament_1
+
+草坪装饰2（错乱分段式）：lawnornament_2
+
+草坪装饰3（伞状树）：lawnornament_3
+
+草坪装饰4（尖树状）：lawnornament_4
+
+草坪装饰5（双层树状）：lawnornament_5
+
+草坪装饰6（开花）：lawnornament_6
+
+草坪装饰7（粉色）：lawnornament_7
+
+复杂精致的修剪灌木（猪）：topiary_1
+
+复杂精致的修剪灌木（嚎叫猪）：topiary_2
+
+复杂精致的修剪灌木（牛）：topiary_3
+
+复杂精致的修剪灌木（猪王）：topiary_4
+
+倾斜小屋-Slanty Shanty：playerhouse_city
+
+猪伯利学院-Swinesbury Academy：pig_shop_academy
+
+猪伯利市政大厅-Swinesbury Cityhall：pig_shop_cityhall
+
+银猪槽熟食店-The Sterling Trough Deli：pig_shop_deli
+
+猪伯利精选食品店-Swinesbury Fine Grocer's：pig_shop_produce
+
+猪猪小姐花艺店-Miss Sow's Floral Arrangements：pig_shop_florist
+
+猪猪与居居杂货店-Pigg and Pigglet's General Store：pig_shop_general
+
+卷尾巴泥巴浴健康会馆-Curly Tails Mud Spa：pig_shop_hoofspa
+
+飞猪横来奥术商店-The Flying Pig Arcane Shop：pig_shop_arcane
+
+野猪獠牙武器店-The Boar's Tusk Weapon Shop：pig_shop_weapons
+
+俊猪耳帽子店-The Sow's Ear Hat Shop：pig_shop_hatshop
+
+“猪栏”奇闻异物馆-'The Sty' Oddities Emporium：pig_shop_antiquities
+
+皇宫-Palace：pig_palace
+
+农宅（石头猪人房）：pighouse_farm
+
+采石小屋（外表跟上面的没差，但上面出来农场猪，这个出来矿工猪）：pighouse_mine
+
+市内住宅-Town House（大概可以随机刷出8种房子）：pighouse_city
+
+守望塔/守望塔（皇家）（不插旗）-Watch Tower：pig_guard_tower/pig_guard_tower_palace
+
+毒云（就是驱虫灵喷出来的毒气）：gascloud
+
+石片-Stone Slab：rock_flippable
+
+雷鸟窝-Thundernest：thunderbirdnest
+
+气泡泳池-Sparkling Pool：sedimentpuddle
+
+诱惑的石像：pig_ruins_idol
+
+巨砾：pig_ruins_artichoke
+
+用来砸的锅-A Smashing Pot：smashingpot
+
+破碎的石脸（只有脸）：pig_ruins_head
+
+破碎的石脸（有两颗金牙的猪人）：pig_ruins_pig
+
+破碎的石脸（有金子的蚁人）：pig_ruins_ant
+
+破碎的图腾：pig_ruins_plaque
+
+破碎的火炬：pig_ruins_torch
+
+墙壁火炬：pig_ruins_torch_wall
+
+墙壁火炬（蓝色的）：pig_ruins_torch_wall_blue
+
+墙上的藤蔓：pig_ruins_torch_wall_vines_east/west/north
+
+废墟的入口（去猪二岛）：pig_ruins_entrance/pig_ruins_exit（后者是没有藤蔓的）
+
+废墟的入口（去蛇岛）：pig_ruins_entrance2/pig_ruins_exit2（后者是没有藤蔓的）
+
+废墟的入口（蚁人雕像）：pig_ruins_entrance3
+
+废墟的入口（无雕像）：pig_ruins_entrance_small
+
+地洞的光：pig_ruins_light_beam/roc_cave_light_beam
+
+地洞里的机关石头（需要踩住才能打开石洞门的那种）：pig_ruins_pressure_plate
+
+青春不老泉-Fountain of Youth：pugalisk_fountain
+
+摇摇欲坠的柱子：pugalisk_ruins_pillar
+
+不祥的雕刻：pugalisk_trap_door
+
+古代城墙（出现在蛇岛祭坛附近的那种）：wall_pig_ruins_repaired
+
+古代城墙（同楼上的一样，不过是破坏的）：wall_pig_ruins
+
+地下陷阱（刷在地上不会触发）：pig_ruins_spear_trap
+
+毁掉的长矛陷阱：pig_ruins_spear_trap_broken
+
+石化的蛋（大鸟巣里的）：roc_nest_egg1/2/3/4
+
+饱受风霜的小屋：roc_nest_house
+
+生锈的灯：roc_nest_rusty_lamp
+
+大鸟巣：roc_nest
+
+蜂蜜箱：antchest
+
+蚁穴-Antcomb Home：antcombhome
+
+灯塔：ant_cave_lantern
+
+许愿井-Wishing Well：deco_ruins_fountain
+
+人蚁丘陵-Mant Hill：anthill/anthill_exit（前者会崩档，后者不会）
+
+曼德拉丘陵：mandrakehouse
+
+龟裂洞穴-Cave Cleft：vampirebatcave
+
+大蚊群-Gnat Mound：gnatmound
+
+粪堆-Dung Pile：dungpile
+
+粪球-Dung Ball：dungball
+
+钟乳石王座：antqueen_throne
+
+出生地的东西：porkland_intro_basket/balloon/trunk/flags/scrape/suitcase/sandbag
+
+
+
+
+【生物】
+变色龙麦克斯-Maxameleon：porkland_intro
+
+猪守卫-Royal Guard（皇家）：pigman_royalguard
+
+猪守卫-Royal Guard：pigman_royalguard_2
+
+卷尾巴泥巴浴健康会馆老板-Beautician：pigman_beautician_shopkeep/pigman_beautician
+
+猪猪与居居杂货店老板-Banker：pigman_bamker_shopkeep/pigman_banker/pigman_shopkeep
+
+猪猪小姐花艺店老板-Florist：pigman_florist_shopkeep/pigman_florist
+
+猪伯利学院老板-Professor：pigman_professor_shopkeep/pigman_professor
+
+猪伯利精选食品店/银猪槽熟食店老板-Storeowner：pigman_storeowner
+
+玛法法王后-Pig Queen：pigman_queen
+
+农场猪人-Farmer：pigman_farmer
+
+修理工猪人-Worker：pigman_mechanic
+
+市长猪人-Mayor：pigman_mayor
+
+矿工猪人-Miner：pigman_miner
+
+穿绿马甲的猪人-Usher：pigman_usher
+
+戴面具的猪人-Masked Pig（猪小偷）：pigbandit
+
+“猪栏”奇闻异物馆老板-Collector：pigman_collector_shopkeep/pigman_collector
+
+飞猪横来奥术商店老板-Erudite：pigman_erudite_shopkeep/pigman_erudite
+
+野猪獠牙武器店老板-Hunter：pigman_hunter_shopkeep/pigman_hunter
+
+俊猪耳帽子店老板-Hatmaker：pigman_hatmaker_shopkeep/pigman_hatmaker
+
+工蚁-Mant：antman
+
+兵蚁：antman_warrior
+
+人蚁战士之卵：antman_warrior_egg
+
+女人蚁王后-Queen Womant：antqueen
+
+雷鸟-Thunderbird：thunderbird
+
+鸽子/一群鸽子-Pigeon：pigeon/pigeon_swarm
+
+鹦鹉（蓝）-Polly Parrot：parrot_blue
+
+翠鸟-Kingfisher：kingfisher
+
+古代神灵（猪鬼魂-Ancient Spirit：pigghost
+
+蜘蛛猴-Spider Monkey：spider_monkey
+
+雀眼鹰-Peagawk：peagawk
+
+大鸟的头/脚/尾巴-BFB：roc_head/leg/tail
+
+石蛋-Stone Egg（孵切斯特）：roc_robin_egg
+
+毒剑蛙-Poison Dartfrog：frog_poison
+
+鸡（应该是后期会加入的新物种）：chicken
+
+狐狸-Pog：pog
+
+钻地龙-Pugalisk：pugalisk
+
+齿状捕蝇器-Snaptooth Flytrap：adult_flytrap
+
+齿状捕蝇器幼苗-Snaptooth Seedling：mean_flytrap
+
+萤火虫-Glowfly（白天也有的那种）：glowfly
+
+黏糊的鼻涕虫-Gummy Slug：slugbug
+
+蝽象-Bean Bugs：jellybug
+
+蚊群-Gnat Swarm：gnat
+
+金戈登-Pangolden：pangolden
+
+铁巨人-Iron Hulk：ancient_robot_ribs/head/claw/leg
+
+吸血蝙蝠-Vampire Bat：vampirebat
+
+大蛆-Giant Grub：giantgrub
+
+河马-Hippopotamoose：hippopotamoose
+
+皮可果/橙色皮可果-Piko：piko/piko_orange
+
+屎壳郎-Dung Beetle：dungbeetle
+
+蝎子-Scorpion：scorpion
+
+维沃虫-Weevole：weevole
+
+帕塔潘-Platapine：bill
+
+曼德拉人-Elder Mandrake：mandrakeman
+
+疯狂甲虫-Rabid Beetle：rabid_beetle
+
+远古先驱者（应该是后面会加入的boss）：ancient_herald
+
+斑斑马（应该是后面会加入的生物）：zeb
+
+
+
+
+【植物】
+树篱-Hedge（3种）：hedge_cone/hedge_layered/hedge_block
+
+高草丛：grass_tall
+
+异域花-Exotic Flowers（随机刷出18种）：flower_rainforest
+
+芦笋-Asparagus（种在地上的）：asparagus_planted
+
+芦笋种子（刷地上捡起来会崩档！！！）：asparagus_seeds
+
+芦荟-Aloe：aloe_planted
+
+芦荟种子（刷地上捡起来会崩档！！！）：aloe_seeds
+
+拉蒂什-Radish：radish_planted
+
+拉蒂什种子（刷地上捡起来会崩档！！！）：radish_seeds
+
+茶树-Tea Tree：teatree_tall/short/normal/stump/burnt
+
+有松鼠的茶树-Tea Tree：teatree_piko_nest
+
+种荚-Seed Pod：teatree_nut
+
+森林芒刺果-Jungle Burr：burr
+
+利爪棕榈树-Claw Palm Tree：clawpalmtree/clawpalmtree_tall/short/stump
+
+棕榈树苗-Claw Palm Sapling：clawpalmtree_sapling
+
+雨林大树-Rainforest Tree：rainforesttree_rot/_tall/_short/_stump/_burnt
+
+被茧缠住的树-Cocooned Tree：spider_monkey_tree/spider_monkey_tree_tall/short/normal/stump/burnt
+
+块茎树-Tuber Trees：tubertree/_tall/_short/_burnt/_stump
+
+开花的块茎树-Blooming Tuber Tree：/
+
+饱受风霜的树：roc_nest_tree1/2
+
+饱受风霜的枝丫：roc_nest_branch1/2
+
+饱受风霜的灌木：roc_nest_bush
+
+饱受风霜的棍子：roc_nest_debris1/2/3/4
+
+饱受风霜的树干：roc_nest_trunk
+
+莲藕：lotus
+
+莲花-Lotus Flower：lotus_flower
+
+睡莲：lilypad
+
+荨麻藤-Nettle Vine：nettle
+
+粗大的带叶枝芽：tree_pillar
+
+悬挂着的藤蔓（有攻击性的）：grabbing_vine
+
+荆棘-Bramble：bramblespike
+
+魔花-Magic Flower：lifeplant
+
+
+
+
+【地皮】
+草原草皮（就是草坪上的地皮）：turf_lawn
+
+石路草皮-Stone Road Turf：turf_cobbleroad
+
+平石地皮-Flat Stone Turf：turf_foundation
+
+精心护理草皮：turf_fields
+
+苔藓草皮：turf_moss
+
+古石草皮（该地皮铲掉获得一块石块，原地变成浓密雨林草皮，铲不掉）：turf_pigruins
+
+有毒草皮（这个地皮铲不掉，并且干草叉会直接坏掉）：turf_gasjungle
+
+浓密雨林草皮（这个地皮铲不掉）：turf_deeprainforest
+
+雨林草皮：turf_rainforest
+
+
+
+
+【屋内装饰】
+刺猬地毯：rug_hedgehog
+
+编织地毯：rug_braid
+
+胡子地毯：rug_beard
+
+圆形地毯：rug_circle
+
+犯罪地毯：rug_crime
+
+市政厅边角毯：rug_cityhall_corners
+
+皮毛地毯：rug_fur
+
+蹄印地毯：rug_hoofprint
+
+皮革地毯：rug_leather
+
+金属地毯：rug_metal
+
+钉板地毯：rug_nailbed
+
+椭圆地毯：rug_oval
+
+八角地毯：rug_octagon
+
+豪猪皮毛地毯：rug_porcupuss
+
+宫殿地毯：rug_palace_runner
+
+橡胶地毯：rug_rubbermat
+
+大型地毯：rug_rectangle
+
+眼之地毯：rug_round
+
+旋涡地毯：rug_swirl
+
+方形地毯：rug_square
+
+足球地毯：rug_tiles
+
+虫洞地毯：rug_wormhole
+
+丝网地毯：rug_web
+
+帽子店摆设：hatbox1/2
+
+
+
+
+【其他】
+洒水特效：water_spray（我会刷这个出来配合其他东西当喷泉O(∩_∩)O哈哈~）

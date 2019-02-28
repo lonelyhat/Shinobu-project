@@ -1,0 +1,166 @@
+--TOOLS (工具) 
+axe           (斧头)       :  twigs (树枝) 1  +  flint      (燧石) 1
+goldenaxe     (黄金斧头)   :  twigs (树枝) 4  +  goldnugget (黄金) 2
+machete       (砍刀)       :  twigs (树枝) 1  +  flint      (燧石) 3
+goldenmachete (黄金砍刀)   :  twigs (树枝) 4  +  goldnugget (黄金) 2
+pickaxe       (镐)         :  twigs (树枝) 2  +  flint      (燧石) 2
+goldenpickaxe (黄金镐)     :  twigs (树枝) 4  +  goldnugget (黄金) 2
+shears        (剪刀)       :  twigs (树枝) 2  +  iron       (铁)   2
+shovel        (铲子)       :  twigs (树枝) 2  +  flint      (燧石) 2
+goldenshovel  (黄金铲子)   :  twigs (树枝) 4  +  goldnugget (黄金) 2
+hammer        (锤子)       :  twigs (树枝) 3  +  rocks      (石)   3  +  cutgrass (草) 6
+pitchfork     (草叉)       :  twigs (树枝) 2  +  flint      (燧石) 2
+razor         (剃刀)       :  twigs (树枝) 2  +  flint      (燧石) 2
+
+
+--LIGHT (照明) 
+campfire  (营火)      :  cutgrass (草)   3  +  log        (木) 2
+firepit   (石头营火)  :  log      (木)   2  +  rocks      (石) 12
+torch     (火炬)      :  cutgrass (草)   2  +  twigs      (树枝) 2
+candlehat (蜡烛帽)    :  cork     (软木) 4  +  iron       (铁) 2
+minerhat  (矿工帽)    :  strawhat (草帽) 1  +  goldnugget (黄金) 1      +  fireflies (萤火虫) 1
+bathat    (蝙蝠帽)    :  pigskin  (猪皮) 2  +  batwing    (蝙蝠翅膀) 1  +  compass   (指南针) 1
+lantern   (提灯)      :  twigs    (树枝) 3  +  rope       (绳子) 2      +  lightbulb (荧光果) 2
+
+
+--ARCHAEOLOGY (考古学) 
+disarming_kit    (拆除器)  :  iron (铁) 2  +  cutreeds (芦苇) 2
+ballpein_hammer  (考古锤)  :  iron (铁) 2  +  twigs    (树枝) 1
+goldpan          (淘金盘)  :  iron (铁) 2  +  hammer   (锤子) 1
+magnifying_glass (放大镜)  :  iron (铁) 1  +  twigs    (树枝) 1  +  bluegem (蓝宝石) 1
+
+
+--SURVIVAL (生存) 
+trap         (陷阱)         :  twigs         (树枝)   2  +  cutgrass    (草)   6
+birdtrap     (捕鸟陷阱)     :  twigs         (树枝)   3  +  silk        (蛛丝) 4
+bugnet       (捕虫网)       :  twigs         (树枝)   4  +  silk        (蛛丝) 2  +  rope (绳子) 1
+fishingrod   (鱼竿)         :  twigs         (树枝)   2  +  silk        (蛛丝) 2
+umbrella     (伞)           :  twigs         (树枝)   6  +  pigskin     (猪皮) 1  +  silk (蛛丝) 2
+bugrepellent (杀虫喷雾器)   :  tuber_crop    (块茎)   6  +  venus_stalk (捕蝇草花柄) 1
+bandage      (蜂蜜绷带)     :  papyrus       (纸)     1  +  honey       (蜂蜜) 2
+healingsalve (治疗药膏)     :  ash           (灰)     2  +  rocks       (石  ) 1  +  spidergland (蜘蛛腺体) 1
+compass      (指南针)       :  goldnugget    (黄金)   1  +  papyrus     (纸) 1
+backpack     (背包)         :  cutgrass      (草)     4  +  twigs       (树枝) 4
+piggyback    (猪皮包)       :  pigskin       (猪皮)   4  +  silk        (蛛丝) 6  +  rope (绳子) 2
+bedroll_furry(毛皮铺盖)     :  bedroll_straw (草席卷) 1  +  manrabbit_tail (兔人尾巴) 2
+tent         (帐篷)         :  silk          (蛛丝)   6  +  twigs       (树枝) 4  +  rope (绳子) 3
+siestahut    (午睡小屋)     :  silk          (蛛丝)   2  +  boards      (木板) 4  +  rope (绳子) 3
+featherfan   (羽毛扇)       :  goose_feather (鹿鸭羽毛) 5  +  cutreeds  (芦苇) 5  +  rope (绳子) 2
+未填写
+
+
+--NAUTICAL (航海) 
+lograft       (木筏)     :  log    (木头) 6  +  cutgrass (切下的草) 4
+raft          (小船)     :  bamboo (竹子) 4  +  vine (藤蔓) 3
+corkboat      (软木小舟) :  cork   (软木) 4  +  rope (绳子) 1
+cargoboat     (运货船)   :  boards (木板) 6  +  rope (绳子) 3
+snakeskinsail (蛇皮帆)   :  log    (木头) 4  +  rope (绳子) 2  +  snakeskin (蛇皮) 2
+
+
+--FARM (种植) 
+slow_farmplot (一般农田) :  cutgrass   (草)   8  +  poop      (便便)   4  +  log      (木)   4
+fast_farmplot (高级农田) :  cutgrass   (草)   10 +  poop      (便便)   6  +  rocks    (石)   4
+fertilizer    (化肥)     :  poop       (便便) 3  +  boneshard (硬骨头) 2  +  log      (木)   4
+beebox        (蜂箱)     :  boards     (木板) 2  +  honeycomb (蜂巢)   1  +  bee      (蜜蜂) 4
+meatrack      (晾肉架)   :  twigs      (树枝) 3  +  charcoal  (木炭)   2  +  rope     (绳子) 3
+cookpot       (煮锅)     :  cutstone   (石砖) 3  +  charcoal  (木炭)   6  +  twigs    (树枝) 6
+icebox        (冰箱)     :  goldnugget (黄金) 2  +  gears     (齿轮)   1  +  cutstone (石砖) 1
+sprinkler     (洒水器)   :  alloy      (合金) 2  +  bluegem   (蓝宝石) 1  +  ice      (冰)   6
+
+
+--SCIENCE (科学) 
+researchlab    (科学机器)   :  goldnugget (黄金)   1  +  log         (木)    4  +  rocks (石) 4
+researchlab2   (炼金术引擎) :  boards     (木板)   4  +  cutstone    (石砖)  2  +  transistor (晶体管) 2
+transistor     (晶体管)     :  goldnugget (黄金)   2  +  cutstone    (石砖)  2
+diviningrod    (探矿杖)     :  twigs      (树枝)   1  +  nightmarefuel (噩梦燃料) 4  +  gears (齿轮) 1
+winterometer   (寒冬温度计) :  boards     (木板)   2  +  goldnugget  (黄金)  2
+rainometer     (雨量计)     :  boards     (木板)   2  +  goldnugget  (黄金)  2  +  rope (绳子)  2
+gunpowder      (火药)       :  rottenegg  (烂鸡蛋) 1  +  charcoal    (木炭)  1  +  nitre (硝石) 1
+lightning_rod  (避雷针)     :  goldnugget (黄金)   4  +  cutstone    (石砖)  1
+firesuppressor (灭火器)     :  gears      (齿轮)   2  +  transistor  (晶体管)2  +  ice (冰) 15
+smelter        (熔炉)       :  cutstone   (石砖)   6  +  boards      (木板)  4  +  redgem (红宝石) 1
+basefan        (摆动风扇)   :  alloy      (合金)   2  +  transistor  (电器元件) 2  +  gears (齿轮) 1
+
+
+--WAR (战斗) 
+spear         (矛)         :  twigs    (树枝) 2  +  rope        (绳子) 1  +  flint (燧石) 1
+halberd       (戟)         :  alloy    (合金) 1  +  twigs       (树枝) 2
+cork_bat      (软木棒)     :  cork     (软木) 3  +  boards      (木板) 1
+hambat        (火腿短棍)   :  pigskin  (猪皮) 1  +  twigs       (树枝) 2  +  meat (大肉) 2
+armorwood     (木盔甲)     :  log      (木)   8  +  rope        (绳子) 2
+armor_weevole (象鼻虫披风) :  weevole_carapace (象鼻虫壳) 4  +  chitin (甲壳) 2
+antmaskhat    (蚂蚁头盔)   :  chitin   (甲壳) 5  +  footballhat (猪皮帽) 1
+antsuit       (蚂蚁甲)     :  chitin   (甲壳) 5  +  armorwood   (木盔甲) 1
+footballhat   (猪皮帽)     :  pigskin  (猪皮) 1  +  rope        (绳子) 1
+metalplatehat (花顶头盔)   :  alloy    (合金) 3  +  cork        (软木) 3
+armor_metalplate (铁甲)    :  alloy    (合金) 3  +  hammer      (锤子) 1
+blowdart_sleep (麻醉吹箭)  :  cutreeds (芦苇) 2  +  stinger     (蜂刺) 1  +  feather_crow  (乌鸦羽毛) 1
+blowdart_fire (燃烧吹箭)   :  cutreeds (芦苇) 2  +  charcoal    (木炭) 1  +  feather_robin (红雀羽毛) 1
+blowdart_pipe (吹箭)       :  cutreeds (芦苇) 2  +  houndstooth (犬牙) 1  +  feather_robin_winter (雪雀羽毛) 1
+boomerang     (回旋镖)     :  boards   (木板) 1  +  silk        (蛛丝) 1  +  charcoal      (木炭) 1
+beemine       (蜜蜂地雷)   :  boards   (木板) 1  +  bee         (蜜蜂) 4  +  flint         (燧石) 1
+trap_teeth    (牙齿陷阱)   :  log      (木)   1  +  rope        (绳子) 1  +  houndstooth   (犬牙) 1
+blunderbuss    (火铳)      :  boards   (木板) 2  +  oinc10      (银币) 1  +  gears         (齿轮) 1
+
+
+--STRUCTURES (建造) 
+treasurechest     (木箱)     :  boards   (木板) 3
+corkchest         (软木桶)   :  cork     (软木) 2  +  rope (绳子) 1
+homesignv         (标牌)     :  boards   (木板) 1
+wall_hay_item     (干草墙)   :  cutgrass (草)   4  +  twigs (树枝) 2
+wall_wood_item    (木墙)     :  boards   (木板) 2  +  rope (绳子) 1
+wall_stone_item   (石墙)     :  cutstone (石砖) 2
+birdcage          (鸟笼)     :  papyrus  (纸)   2  +  goldnugget (黄金) 6  +  seeds (种子) 2
+turf_road         (卵石路)   :  turf_rocky (岩石草皮) 1  +  boards (木板) 1
+turf_woodfloor    (木地板)   :  boards   (木板) 1
+turf_checkerfloor (棋盘地板) :  marble   (大理石) 1
+turf_carpetfloor  (地毯地板) :  boards   (木板) 1  +  beefalowool (牛毛) 1
+
+
+--REFINE (精炼) 
+rope (绳子)        :  cutgrass  (草)   3
+boards (木板)      :  log       (木)   4
+cutstone (石砖)    :  rocks     (石)   3
+clawpalmtree_sapling (爪形树苗)   :  cork (软木) 1  +  poop (便便) 1
+papyrus (纸)       :  cutreeds  (芦苇) 4
+goldnugget (黄金)  :  gold_dust (金沙) 6
+venomgland (毒腺)  :  froglegs_poison (毒蛙腿) 3
+nightmarefuel (噩梦燃料) :  petals_evil (噩梦花瓣) 4
+purplegem (紫宝石) :  redgem   (红宝石) 1  +  bluegem (蓝宝石) 1
+
+
+--MAGIC
+hogusporkusator    (猪魔法)     :  pigskin       (猪皮)     4  +  boards        (木板)     4  +  feather_robin_winter (蓝色羽毛) 4
+researchlab3       (阴影操纵者) :  livinglog     (活木头)   3  +  purplegem     (紫宝石)   1  +  nightmarefuel (噩梦燃料) 7
+resurrectionstatue (肉块雕像)   :  boards        (木板)     4  +  cookedmeat    (熟肉)     4  +  beardhair     (胡须)     4
+panflute           (排箫)       :  cutreeds      (芦苇)     5  +  mandrake      (曼德拉草) 1  +  rope          (绳子)     1
+onemanband         (独奏乐器)   :  goldnugget    (黄金)     2  +  nightmarefuel (噩梦燃料) 4  +  pigskin       (猪皮)     2
+nightlight         (暗影照明灯) :  goldnugget    (黄金)     8  +  nightmarefuel (噩梦燃料) 2  +  redgem        (红宝石)   1
+armor_sanity       (夜魔盔甲)   :  nightmarefuel (噩梦燃料) 5  +  papyrus       (纸)       3
+nightsword         (暗夜剑)     :  nightmarefuel (噩梦燃料) 5  +  livinglog     (活木头)   1
+batbat             (蝙蝠棒)     :  batwing       (蝙蝠翅膀) 5  +  livinglog     (活木头)   2  +  purplegem     (紫宝石)   1
+armorslurper       (饥饿腰带)   :  slurper_pelt  (啜食者皮) 6  +  rope          (绳子)     2  +  nightmarefuel (噩梦燃料) 2
+amulet             (红色护身符) :  goldnugget    (黄金)     3  +  nightmarefuel (噩梦燃料) 2  +  redgem        (红宝石)   1
+blueamulet         (蓝色护身符) :  goldnugget    (黄金)     3  +  bluegem       (蓝宝石)   1
+purpleamulet       (紫色护身符) :  goldnugget    (黄金)     6  +  nightmarefuel (噩梦燃料) 4  +  purplegem     (紫宝石)   2
+firestaff          (火魔杖)     :  nightmarefuel (噩梦燃料) 2  +  spear         (长矛)     1  +  redgem        (红宝石)   1
+icestaff           (冰魔杖)     :  spear         (长矛)     1  +  bluegem       (蓝宝石)   1
+telestaff          (传送魔杖)   :  nightmarefuel (噩梦燃料) 4  +  livinglog     (活木头)   2  +  purplegem     (紫宝石)   2
+telebase           (传送核心)   :  nightmarefuel (噩梦燃料) 4  +  livinglog     (活木头)   4  +  goldnugget    (黄金)     8
+
+
+--DRESSUP (穿戴) 
+sewing_kit (针线包)   :  log      (木)   1  +  silk (蛛丝) 8  +  houndstooth (犬牙) 2
+flowerhat  (花环)     :  petals   (花瓣) 12
+strawhat   (草帽)     :  cutgrass (草)   12
+tophat     (高礼帽)   :  silk     (蛛丝) 6
+gasmaskhat (防毒面具) :  peagawkfeather (孔雀羽毛) 4  +  pigskin (猪皮) 1  +  fabric (布) 1
+pithhat    (探险帽)   :  fabric   (布)   1  +  vine (藤蔓) 3  +  cork (软木) 6
+thunderhat (避雷帽)   :  feather_thunder (雷鸟羽毛) 1  +  goldnugget (黄金) 2  +  cork (软木) 3
+featherhat (羽毛帽)   :  feather_crow (乌鸦羽毛) 3  +  feather_robin (红雀羽毛) 2  +  tentaclespots (触手皮) 2
+bushhat    (丛林帽)   :  strawhat (草帽) 1  +  rope (绳子) 1  +  dug_berrybush (浆果灌木丛) 1
+snakeskinhat (蛇皮帽) :  snakeskin(蛇皮) 1  +  strawhat (草帽) 1  +  boneshard (骨片) 1
+armor_snakeskin (蛇皮衣) :  snakeskin (蛇皮) 2  +  vine (藤蔓) 2  +  boneshard (骨片) 1
+
+
+

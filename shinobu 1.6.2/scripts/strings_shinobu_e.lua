@@ -1,0 +1,17 @@
+STRINGS.SHINOBUTAB = "Shinobu"
+
+STRINGS.NAMES.HEARTSPAN = "Heartspan"
+STRINGS.RECIPE_DESC.HEARTSPAN = "It was belonged to someone else..."
+STRINGS.CHARACTERS.GENERIC.DESCRIBE.HEARTSPAN = "..."
+
+STRINGS.NAMES.KATANA = "Katana"
+STRINGS.RECIPE_DESC.KATANA = "Kaka!"
+STRINGS.CHARACTERS.GENERIC.DESCRIBE.KATANA = "..."
+
+STRINGS.CHARACTER_TITLES.shinobu = "Shinobu"
+STRINGS.CHARACTER_NAMES.shinobu = "Shinobu"
+STRINGS.CHARACTER_DESCRIPTIONS.shinobu = "The sun is my enemy, but the moon has been good to me."
+STRINGS.CHARACTER_QUOTES.shinobu = "Kaka!"
+
+STRINGS.NAMES.shinobu = "Shinobu"
+

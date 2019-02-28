@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r7">
+    <folder id="0" name="katana">
+        <file id="0" name="katana/katana.png" width="567" height="512" pivot_x="0.467372" pivot_y="0.267578"/>
+        <file id="1" name="katana/katana_water.png" width="567" height="512" pivot_x="0.342152" pivot_y="0.503906"/>
+    </folder>
+    <entity id="0" name="katana">
+        <animation id="0" name="idle" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="katana">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="3" y="133" angle="179.099197"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="1" name="katana_water">
+        <animation id="0" name="idle_water" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="katana_water">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="1" y="-2" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
